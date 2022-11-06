@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
+
+        <title>Musika</title>
+       
+       <style>
+          
+      
+        body {
+        background-color: #E9E5D6;
+    
+      }
+        html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+
+      
+       
+        ul {
+            list-style-type:none;
+            position: relative;  
+            display: block; 
+            left: 50%;
+        
+          }
+          
+          li {
+            position: relative; 
+            float: left; 
+            display: block; 
+            right: 50%;
+            margin: 0% 97px 0%;
+          }
+          
+          li a {
+            font-family: 'Nunito', sans-serif;
+            display: block;
+            color: #362706;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+            
+          }
+          
+          /* Change the link color to #111 (black) on hover */
+          li a:hover {
+            background-color: #c8d3ae;
+            border-radius: 5px;
+          }
+
+          .logo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+          hr {
+            border-top: 2.5px solid #464E2E;
+            width:85%;
+            text-align:left;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+          }
+        
+          #navbar {
+            float: left;
+          }
+
+          #navbar {
+            width: 150%;
+            height: 120px;
+              
+          }
+
+          #content {
+            font-family: 'Nunito', sans-serif;
+            color: #464E2E;
+            margin: 150px auto 0;
+            width: 41.5%;
+            text-align: center;
+          }
+
+          #piano {
+            font-family: 'Nunito', sans-serif;
+            color: #362706;
+            background: #ACB992;
+            border-radius: 5px;
+            position: relative; 
+            padding: 20px;
+            padding-top: 48px;
+            padding-right: 20px;
+            display: block; 
+            text-align: center;
+            width: 60%;
+            margin-top: 85px;
+            margin-left: 272px;
+            margin-right: 100px;
+          }
+
+          #guitar {
+            font-family: 'Nunito', sans-serif;
+            color: #362706;
+            background: #ACB992;
+            border-radius: 5px;
+            position: relative; 
+            padding: 20px;
+            padding-top: 48px;
+            padding-right: 20px;
+            display: block; 
+            text-align: center;
+            width: 60%;
+            margin-top: 85px;
+            margin-left: 272px;
+            margin-right: 100px;
+          }
+
+          #violin {
+            font-family: 'Nunito', sans-serif;
+            color: #362706;
+            background: #ACB992;
+            border-radius: 5px;
+            position: relative; 
+            padding: 20px;
+            padding-top: 45px;
+            padding-right: 20px;
+            display: block; 
+            text-align: center;
+            width: 60%;
+            margin-top: 85px;
+            margin-left: 272px;
+            margin-right: 100px;
+          }
+
+          #drums {
+            font-family: 'Nunito', sans-serif;
+            color: #362706;
+            background: #ACB992;
+            border-radius: 5px;
+            position: relative; 
+            padding: 20px;
+            padding-top: 45px;
+            padding-right: 20px;
+            display: block; 
+            text-align: center;
+            width: 60%;
+            margin-top: 85px;
+            margin-left: 272px;
+            margin-right: 100px;
+          }
+
+          #saxophone {
+            font-family: 'Nunito', sans-serif;
+            color: #362706;
+            background: #ACB992;
+            border-radius: 5px;
+            position: relative; 
+            padding: 20px;
+            padding-top: 45px;
+            padding-right: 20px;
+            display: block; 
+            text-align: center;
+            width: 60%;
+            margin-top: 85px;
+            margin-left: 272px;
+            margin-right: 100px;
+          }
+
+          #cello {
+            font-family: 'Nunito', sans-serif;
+            color: #362706;
+            background: #ACB992;
+            border-radius: 5px;
+            position: relative; 
+            padding: 20px;
+            padding-top: 45px;
+            padding-right: 20px;
+            display: block; 
+            text-align: center;
+            width: 60%;
+            margin-top: 85px;
+            margin-left: 272px;
+            margin-right: 100px;
+          }
+
+          #flute {
+            font-family: 'Nunito', sans-serif;
+            color: #362706;
+            background: #ACB992;
+            border-radius: 5px;
+            position: relative; 
+            padding: 20px;
+            padding-top: 45px;
+            padding-right: 20px;
+            display: block; 
+            text-align: center;
+            width: 60%;
+            margin-top: 85px;
+            margin-left: 272px;
+            margin-right: 100px;
+          }
+          
+          #clarinet {
+            font-family: 'Nunito', sans-serif;
+            color: #362706;
+            background: #ACB992;
+            border-radius: 5px;
+            position: relative; 
+            padding: 20px;
+            padding-top: 45px;
+            padding-right: 20px;
+            display: block; 
+            text-align: center;
+            width: 60%;
+            margin-top: 85px;
+            margin-left: 272px;
+            margin-right: 100px;
+          }
+          
+          #harp {
+            font-family: 'Nunito', sans-serif;
+            color: #362706;
+            background: #ACB992;
+            border-radius: 5px;
+            position: relative; 
+            padding: 20px;
+            padding-top: 45px;
+            padding-right: 20px;
+            display: block; 
+            text-align: center;
+            width: 60%;
+            margin-top: 85px;
+            margin-left: 272px;
+            margin-right: 100px;
+          }
+
+          #trumpet {
+            font-family: 'Nunito', sans-serif;
+            color: #362706;
+            background: #ACB992;
+            border-radius: 5px;
+            position: relative; 
+            padding: 20px;
+            padding-top: 45px;
+            padding-right: 20px;
+            display: block; 
+            text-align: center;
+            width: 60%;
+            margin-top: 85px;
+            margin-left: 272px;
+            margin-right: 100px;
+          }
+
+          .button{
+          font-family: 'Nunito', sans-serif;
+            font-size: small;
+            background-color: #96BB7C;
+            border-radius: 5px;
+            width: 8%;
+            height: 5px;
+            margin-left: 685px;
+            padding-top: 5px;
+            padding-bottom: 18px;
+            text-align: center;
+            margin-bottom: 40px;
+         }
+
+          
+          </style>
+  </head>
+  <body>
+      <img src="Musika.png" alt="Musika Logo" width="140" height="60" class="logo">
+      <hr>
+      <div id="navbar">
+          <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Why.html">Why</a></li>
+            <li><a href="Info.html">Info</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="About.html">About</a></li>
+          </ul>
+      </div>
+      
+      <div id="content">
+      <p>Having trouble choosing what instrument to play?</p>
+      <h1>Here are some information about the Top 10 musical instruments you can play</h1>
+      </div>
+
+      <div id="piano">
+        <img src="pianonononoo.png" alt="Piano" width="200"> 
+        <p>1. Piano</p>
+        <p>Piano is one of the most famous instruments in the world. One of the most used musical instruments in the world is the piano. It can be played in almost any musical style, which is why it is so versatile. You may perform solo piano pieces as well. According to research, around 25% of individuals worldwide are can play the piano. The piano is made even more well-known and potent by the fact that it may be played by one person performing for or amused people.</p>
+      </div>
+
+      <div id="guitar">
+        <img src="guitarssss-removebg-preview.png" alt="Guitars" width="250"> 
+        <p>2. Guitar</p>
+        <p>Because it is lightweight, portable, and polyphonic, the guitar is popular. For many people who want to study an instrument, the guitar is an obvious choice because of its popularity. There are also a lot of learning resources accessible because of its appeal. It may be played individually or in a group, like the piano, and it can help students develop crucial hand-to-hand and hand-eye coordination. Additionally, there are other variations of guitar including electric, acoustic, and bass.</p>
+      </div>
+
+      <div id="violin">
+        <img src="violin.png" alt="Violin" width="190"> 
+        <p>3. Violin</p>
+        <p>The violin is one of the most well-known and well-liked musical instruments in the world. It is regarded as one of the most exquisite sound-producing instruments ever created. It is also among the oldest, having existed for centuries. It may be really difficult to play. Although the violin is typically associated with classical music, it also works well with rock and country music. It is a great instrument for beginners, which may account for its popularity.</p>
+      </div>
+
+      <div id="drums">
+        <img src="drumset.png" alt="Drums" width="300"> 
+        <p>4. Drums</p>
+        <p>The drums are very popular generally, despite not being as quiet as the other instruments. Drums are essential in a band because they give melody, dynamics, and rhythm. Since drums are an essential component of so many musical genres, it is unlikely that they will ever drop out of the Top 10. However, learning to play drums can be intimidating and challenging for everyone.</p>
+      </div>
+
+      <div id="saxophone">
+        <img src="Sax.png" alt="Saxophone" width="140"> 
+        <p>5. Saxophone</p>
+        <p>The saxophone seems to be the most famous wind instrument, and school orchestras are often quite interested in having one. Nearly all musical genres, including polkas, country music, and bad bands, sound fantastic with saxophone playing. Saxophone produces the best ambiance, no matter where it is being performed, and the vibe it generates is fantastic, laid-back, and romantic.</p>
+      </div>
+
+      <div id="cello">
+        <img src="cello.png" alt="Cello" width="170"> 
+        <p>6. Cello</p>
+        <p>The cello, often known as the violoncello, is a member of the violin family. Because of its lively, bright sounds and warm tones that resemble the pitch of the human voice, the cello has delighted music lovers for hundreds of years. It is most frequently connected to classical music from Europe. The instrument is a part of many different chamber ensembles in addition to being a component of the regular orchestra's string section and the bass voice of the string quartet.</p>
+      </div>
+
+      <div id="flute">
+        <img src="Flute.png" alt="flute" width="230"> 
+        <p>7. Flute</p>
+        <p>The flute's affordability is one of the factors contributing to its extensive use. Furthermore, it is incredibly portable and simple to learn. Due to a variety of factors, the flute is a unique instrument. It is the only member of the woodwind family that is not typically made of wood, and it lacks a reed. It is also the only instrument that is blown while being held horizontally and does not have an internal mouthpiece. The Flute can also be used as a stepping stone to other instruments.</p>
+      </div>
+
+      <div id="clarinet">
+        <img src="clarinet.png" alt="Clarinet" width="200"> 
+        <p>8. Clarinet</p>
+        <p>The clarinet's acoustics are distinctive. Clarinets are the only reed instruments having cylindrical bores among the standard modern symphonic woodwinds, which means that the interior hollow area has the same diameter along the whole length of the tube. The clarinet is a wonderful woodwind instrument if you're into jazz. Clarinet is very fun to play, especially with others.</p>
+      </div>
+
+      <div id="harp">
+        <img src="Harp.png" alt="Harp" width="150"> 
+        <p>9. Harp</p>
+        <p>The string family of musical instruments includes the unique Harp. Harp music fosters a welcoming, cozy, and secure atmosphere. It contains several individual strings that are angled toward the soundboard. Fingers are used to pluck the strings. Among all of the stringed instruments, the harp is identified as one of the easiest to play.</p>
+      </div>
+
+      <div id="trumpet">
+        <img src="Trumpet.png" alt="Trumpet" width="230"> 
+        <p>10. Trumpet</p>
+        <p>It's unusual that the only brass instrument on the top 10 list is the trumpet. However, it is among the world's earliest musical instruments. In practically every genre, the king of the brass instruments is used. The trumpet is an essential instrument in the brass sections of symphony orchestras as well as in jazz, R&B, and certain rock bands. Since the trumpet is portable and affordable, the instrument is easy to take with you and may be played solo or in groups, which adds to its popularity.</p>
+      </div>
+
+      <hr style=" border-top: 2.5px solid #464E2E; width:85%; text-align:left; margin-left: auto; margin-right: auto; margin-top: 50px;">
+      
+      <p class="button"><a href="Gallery.html">Next Page >></a></p>
